@@ -1,0 +1,52 @@
+__facebook__ 
+Quitar apellido (revisar que lo traiga aparte) (depende del usario que lo permita o no )
+
+Traeser el mismo de correo y foto de facebook  (depende del usario que lo permita o no )
+
+
+Limpiarlas canchas
+
+Mensajepop-up (stilitos)
+
+
+maquetar lo de perfil publico
+
+en mis canchas poner el fondo gris que tienen fotos y vídeos (creo que ya esta)
+en el perfil del jugador arreglar los check que se ven desorganizados  (que hagan previe de como lo necesitan)
+
+
+___POLLOS___
+
+Paila de video " porno ha subido ningun video () listo el pollo
+Que buscas del buscador quitarle el ustear (listo el pollo)
+Cerrar sesion abajo y nombre arriba (listo el pollo)
+Quitar el modal y poner iniciar sesion y registrarse (listo el pollo)
+Registro va tener nombre apellido correo electrónico y contraseña (quitar telefono y ciudad)
+Quitar los guiones del footer (listo el pollo)
+Deshabilitar el reservar en perfil publico (listo el pollo)
+Ocultar longitud y latitud (listo el pollo)
+Botones del modal - imagenes juan (listo el pollo)
+Dspues de que se registra enviar directamente al perfil (falta para facebook y para twitter) (listo el pollo)
+Si ya esta registrado envie al perfil (listo el pollo)
+Foto en mis canchas (foto del complejo ) y alinear foto del perfil en distetintas secciones (listo el pollo)
+En perfil de cancha en disponibilidad no recarga la primera vez (listo el pollo)
+
+
+_________________________
+Direccion cambiarla por posicion de juego  favorita  y esta será un select y aue sea lista desplegable (listo el pollo)
+Cuadro negro del lado de perfil de jugador nivel de juego y    
+Actualizar localidades (listo el pollo)
+Login con correo electrónico y contraseña(listo el pollo)
+
+
+_________________________
+que solo aparezca el iniciar sesión del modal y no el feo que esta en la pagina por ejemplo cuando uno hace clic en perfil (listo el pollo)
+en el home en el buscador del autocompletar poner  algo que diga como escriba lo que desee buscar o algo así (listo el pollo)
+en el listado de la mitad del buscador poner ademas de jugadores y canchas y equipos y partidos (listo el pollo)
+el botón de marcar como favorito que salga el dedito y no como de escribir cuando uno pone el mouse encima (listo el pollo)
+arreglar el hexagono de mis canchas (le adjunto el png) (lsito el pollo)
+
+
+
+_________________________
+Ciudad predeterminada bogota (por base de datos) (listo el pollo)

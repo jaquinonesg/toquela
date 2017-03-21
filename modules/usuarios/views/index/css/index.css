@@ -1,0 +1,162 @@
+.listar_jugadores .img_jugador{
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 260px; 
+    background-color: #E5E5E5;
+}
+
+.listar_jugadores .img_jugador img{
+    width: 100%;
+}
+
+.listar_jugadores .nombre{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.listar_jugadores .recuadro{
+    overflow: hidden;
+    position: relative;
+    width: 210px;
+    height: 350px;
+}
+
+.listar_jugadores .recuadro:hover{
+    background-color: #1A2E3E;
+    color: #FFFFFF;
+}
+
+.listar_jugadores .container-jugador{
+    text-align: center;
+    font-size: 13px;
+}
+
+.listar_jugadores .container-jugador a{
+    width: 100%;
+}
+.div-title-torneo {
+    background: #E6E6E6;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 12.5%;
+    margin-top: 1%;
+}
+.div-title-torneo .title {
+    font-size: 20px;
+    color: #878787;
+    text-align: center;
+    padding-top: 5px;
+}
+.text-header{
+    font-size: 18px;
+    margin-top: 14px;
+}
+.div-roles{
+    background-color: #ddd;
+    border: 2px solid #000;
+}
+.div-role:first-child {
+    border: 2px solid #ddd;
+    border-radius: 10px 0px 0px 10px;
+}
+.div-role:nth-child(2) {
+    border: 2px solid #ddd;
+    border-left: 0px;
+    border-right: 0px;
+}
+.div-role:last-child {
+    border: 2px solid #ddd;
+    border-radius: 0px 10px 10px 0px;
+}
+.div-privilegios{
+    border-bottom: 2px solid #ddd;
+    border-top: 2px solid #ddd;
+    margin-top: 10px;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+}
+#frm-roles{
+    padding-top: 6px;
+    height: 38px;
+}
+#frm-roles span{
+    position: absolute;
+    top: 8px;
+}
+.div-privilegios > div{
+    border: 2px solid #ddd;
+    padding: 4px;
+    margin-bottom: 5px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.div-privilegios span{
+  font-size: 16px;
+}
+.efect-hover{
+ background: #fff;
+ border: 2px solid;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ color: #23C3E2;
+ margin-bottom: 10px;
+}
+.efect-hover:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    color: #fff;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+    width: 25px;
+    height: 14px;
+}
+input[type="radio"]{
+    cursor: pointer;
+    width: 25px;
+    height: 18px;
+}
+.active{
+    background: #ddd;
+}
+@media (max-width: 991px){
+    .div-title-torneo {
+        padding-bottom: 45px;
+    }
+}
+@media (max-width: 1024px){
+    .div-title-torneo {
+        margin-left: 6.5%;
+        width: 86%;
+    }
+}
+@media (max-width: 768px){
+    #frm-roles {
+        padding-top: 6px;
+        height: 125px;
+    }
+    .div-role{
+        text-align: initial;
+    }
+    .div-role:first-child,.div-role:nth-child(2),.div-role:last-child {
+        border: 2px solid #ddd;
+        margin-bottom: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+}

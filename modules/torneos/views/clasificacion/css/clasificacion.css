@@ -1,0 +1,188 @@
+.clasificacion table th{
+    background-color: #1A2E3E;
+    color: #FFFFFF;
+}
+.clasificacion .table-match th{
+    background-color: #ddd;
+    color: #FFFFFF;
+}
+.clasificacion .table-match tbody > tr:nth-child(1) > td{
+  background-color: rgb(65, 89, 105);
+  color: #fff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.clasificacion .table .clickable:hover{
+    background-color: #EFEFEF;
+    cursor: pointer;
+}
+
+.clasificacion .table-match .ir-match{
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: #fff;
+  color: rgb(65, 89, 105);
+  border: 2px solid rgb(65, 89, 105);
+  padding: 2px 8px;
+}
+.clasificacion .table-match .ir-match:hover, .clasificacion .table-match .ir-match:focus, .clasificacion .table-match .ir-match:active{
+  background-color: rgb(65, 89, 105);
+  border-color: rgb(65, 89, 105);
+  color: #fff;
+  -webkit-transition: background-color .4s ease-in-out;
+  -moz-transition: background-color .4s ease-in-out;
+  -o-transition: background-color .4s ease-in-out;
+  -ms-transition: background-color .4s ease-in-out;
+}
+/*------------------------- maquetado de posiciones*/
+
+#container-tablero table {
+    max-width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: transparent;
+}
+
+#container-tablero table tr {
+    height: 30px;
+    padding-right: 2px;
+    vertical-align: middle;
+}
+
+#container-tablero table select{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 100%;
+    /*border: none;*/
+}
+
+#container-tablero table td {
+    border: none;
+}
+
+#container-tablero tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+#container-tablero .clear-match {
+    display: block;
+    clear: both;
+    line-height: 1%;
+    height: 0;
+}
+
+#container-tablero  a{
+    color: #4386bd;
+    text-decoration: none;
+    outline: none;
+}
+
+#container-tablero .knockoutTree {
+    background-color: #FFFFFF;
+    height: auto;
+}
+
+
+
+#container-tablero .knockoutMatch {
+    width: 150px;
+}
+
+
+
+#container-tablero .knockoutMatch .competitorPerMatch {
+    position: relative;
+}
+
+#container-tablero .competitorPerMatch {
+    display: table;
+    border: 1px solid #CCc;
+    border-spacing: 0px;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 2px #dddddd;
+    -moz-box-shadow: 0 2px 2px #dddddd;
+    box-shadow: 0 2px 2px #dddddd;
+}
+
+#container-tablero .competitorCont {
+    font-size: 0.85em;
+    height: 26px;
+    vertical-align: middle;
+    display: table-row;
+}
+
+#container-tablero .competitorPerMatch .competitorCont:first-child td {
+    border-top: none;
+}
+
+#container-tablero .competitorPerMatch .competitorCont td {
+    border-top: 1px solid #eee;
+}
+
+#container-tablero .competitorPerMatch .competitorCont .competitorRes {
+    display: table-cell;
+    border-spacing: 0px;
+    border-left: 1px solid gray;
+    /*    border-left: 1px solid #eee;*/
+    text-align: center;
+    word-wrap: normal;
+    width: 40px;
+}
+
+#container-tablero .knockoutBranches {
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+#container-tablero .lines{
+    width: 15px;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+#container-tablero .brackets {
+    border: 2px solid #506674;
+    border-left: 0px;
+    position: relative;
+    float: left;
+    width: 8px;
+}
+
+#container-tablero .single-bracket {
+    border-bottom: 2px solid #506674;
+    position: relative;
+    float: right;
+    width: 7px;
+}
+
+/*para fase resultados publicos*/
+.fase-resultados .div-resultados-fase{
+    margin-top: 1%;
+}
+#modal-detalle-partido .informacion{
+    margin-top: 75px;
+    text-align: center;
+    line-height: 20px;
+}
+#modal-detalle-partido .formato_statistic{
+    border: 2px solid #ddd;
+    text-align: left;
+    margin-bottom: 5px;
+}
+@media(max-width: 768px){
+    #modal-detalle-partido .informacion{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 3px solid #ddd;
+        border-top: 3px solid #ddd;
+    }
+}

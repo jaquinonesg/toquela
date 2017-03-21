@@ -1,0 +1,414 @@
+/* MIS CANCHAS */
+
+#Main {
+    width: 100%;
+    float: left;
+    background: url(../../../public/img/Back-Main.png) repeat;
+    padding-bottom: 60px;
+}
+
+footer {
+    width: 100%;
+    height: 262px;
+    float: left;
+    background: url(../../../public/img/Back-Footer.png) repeat-x;
+
+}
+
+#Cont-Mis-Canchas {
+    width:1100px;
+    /*	height:1015px;*/
+    float:left;
+    background:#f8f8f8;
+    border:solid 5px #FFF;	
+}	
+
+#Cont-Mis-Canchas .Img-Perfil	{
+    width:151px;
+    height:124px;
+    float:left;
+    margin:10px;
+}	
+
+
+#Cont-Mis-Canchas .Cont-Info-Perf	{
+    width:360px;
+    float:left;
+    margin:20px 0 0 10px;
+}
+
+#Cont-Mis-Canchas .Cont-Info-Perf p	{
+    width:360px;
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#3d4545;	
+    line-height:20px;
+}
+
+#Cont-Mis-Canchas .Cont-Info-Perf a	{
+    color:#3d4545;	
+    text-decoration:none;
+    font-weight:bold;
+    margin-left:10px;
+}
+
+#Cont-Mis-Canchas .Cont-Info-Perf a:hover	{text-decoration:underline;}
+
+
+.Titulo-Nombre {
+    width:360px;
+    float:left;
+    padding:0 0 10px 0;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    color:#3d4545;
+}
+
+#porcentaje {
+    width:200px;
+    height:20px;
+    float:left;
+    margin:25px;
+}
+
+#porcentaje p {
+    width:200px;
+    float:left;	
+    margin-top:10px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#3c4343;	
+}
+
+
+#porcentaje	.Por-Left {
+    width:170px;
+    height:20px;	
+    float:left;	
+    background:#0a894d;	
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#fff;
+}
+
+#porcentaje	.Por-Right {	
+    width:30px;
+    height:20px;
+    float:left;	
+    background:#05673a;	
+}
+
+
+#Cont-Cali {
+    width:279px;
+    height:155px;
+    float:left;
+    background:#141e16;
+    margin:0 0 0 30px;	
+}	
+
+ul#Pos	{
+    width:155px;
+    float:left;
+    margin:10px 0 0 5px;
+}
+
+ul#Pos li {
+    width:155px;	
+    float:left;
+    margin:10px 0 0 5px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#FFF;
+}	
+
+.Numero-Nivel {
+    width:100px;
+    float:left;
+    margin:5px 0 0 5px;
+}	
+
+.Numero-Nivel p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:95px;
+    color:#fdcc00;
+}	
+
+.pc {
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#fdcc00;
+}
+
+.pc a{
+    color:#fdcc00;
+}	
+
+ul#Menu-Int-Canchas {
+    width:1100px;
+    height:60px;
+    float:left;
+    margin:10px 0 0 0;
+    background:url(/public/img/Back-Menu-Perfil.png);
+}
+
+ul#Menu-Int-Canchas li {
+    margin:20px 0 0 50px;
+    float:left;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#306250;
+}
+
+ul#Menu-Int-Canchas li a {
+    color:#306250;
+    text-decoration:none;
+}
+
+ul#Menu-Int-Canchas li a:hover {
+    color:#000;
+}
+ul#Menu-Int-Canchas li a.selected {color:#000;font-weight:bold;}
+
+
+#Cont-Infor {
+    width:1100px;
+    float:left;
+    padding-bottom:25px;	
+}
+
+.Titulo-Cont {
+    width:1100px;
+    float:left;
+    margin:20px 0 0 25px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:#3d4545;
+}	
+
+.Titulo-Cont a{
+    text-decoration:none;
+    color:#3d4545;
+    font-weight:lighter;
+}
+
+.Titulo-Cont a:hover {	text-decoration:underline;}	
+.Titulo-Cont a.selectedGal {font-weight:bold;}	
+
+#Cont-Infor p {
+    width:1050px;
+    float:left;
+    margin:15px 0 0 25px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#3d4545;
+}
+
+ul#Mi-Cancha {
+    width:1050px;
+    float:left;
+    margin:70px 0 0 30px;
+    padding-bottom:20px;
+}
+
+ul#Mi-Cancha li {
+    width:250px;
+    float:left;
+    margin:5px;
+    padding-bottom:20px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#3d4545;
+    text-align:center;
+}	
+
+ul#Mi-Cancha li:hover {background:#014730;color:#fff;}	
+
+
+.Img-Mi-Cancha {
+    width:233px;
+    float:left;
+    margin:10px;
+}
+
+.Reserva {
+    width:250px;
+    float:left;
+    margin:15px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#FDCC00;	
+}
+
+.Reserva a {color:#FDCC00;	}
+
+
+#Cont-Videos-Fotos {
+    width:1035px;
+    float:left;
+    margin:70px 0 0 30px;
+    padding-bottom:35px;
+}
+
+#Cont-Videos-Fotos .Vid-Central {
+    width:520px;
+    float:left;
+    margin:15px;	
+}
+
+#Cont-Videos-Fotos .Vid-Small {
+    width:200px;
+    height:150px;
+    float:left;
+    margin:20px;
+    background:#090;
+}
+
+#Info-Cancha {
+    width:450px;
+    float:left;
+    margin:20px 0 0 20px;
+    padding-bottom:10px;
+}	
+
+#Info-Cancha p {
+    width:450px;
+    float:left;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#3d4545;	
+}
+
+#Info-Cancha .Cont-Img-Canchas	{
+    width:135px;
+    height:100px;
+    float:left;
+    margin:15px 0 0 15px;
+}
+
+
+.Aca-Mapa-Cancha-Info	{
+    width: 570px;
+    float:left;
+    margin:20px 0 0 55px;
+}
+
+#Contiene-Disponibilidad {
+    width:1050px;
+    float:left;
+    height:720px;
+    margin:40px 0 0 30px;
+    padding-bottom:30px; 
+}	
+
+ul#Paginador-Canchas {
+    /*width:475px;
+    float:left;
+    margin-left:550px;*/
+}
+
+ul#Paginador-Canchas li{
+    width:150px;
+    height:35px;
+    float:left;
+    margin:0 0 0 8px;
+    background:#d8d8d8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#3d4545;	
+    text-align:center;
+}
+
+ul#Paginador-Canchas li a{
+    width:150px;
+    height:45px;
+    float:left;
+    padding-top:10px;
+    color:#3c4444;	
+    text-decoration:none;
+}			
+
+ul#Paginador-Canchas li a:hover {
+    width:150px;
+    height:45px;
+    float:left;
+    background:url(/public/img/Back-Cancha-hover.png) no-repeat;
+    color:#fff;
+}
+
+ul#Paginador-Canchas li a.selectedCancha {	
+    width:150px;
+    height:45px;
+    float:left;
+    background:url(/public/img/Back-Cancha-hover.png) no-repeat;
+    color:#fff;
+}
+
+#Reserva {
+    width:150px;
+    height:20px;
+    float:left;
+    margin:30px;
+    background:#0a894d;		
+}
+
+
+#Reserva a {
+    width:150px;
+    float:left;	
+    margin-top:5px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color:#fff;	
+    text-align:center;	
+    text-decoration:none;
+}
+
+.agendaCanchas{
+
+    margin-top: 80px;
+    text-align: center;
+}
+
+#Obser p {
+    width: 1015px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    background: #ccc;
+}
+
+#Obser {
+    width: 1050px;
+    float: left;
+    margin: 0 0 0 45;
+    border-top: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    float: left;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+#login_error{
+
+    background-color: red;
+    color: white;
+    display: none;
+
+}

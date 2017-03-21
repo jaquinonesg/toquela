@@ -1,0 +1,8 @@
+.fc-event{background:#fff!important;color:#000!important}
+#_manana td{background:#179b6a;text-align:center;font-size:18px;color:#fff;border-bottom: 1px solid #FFFFFF;}
+ul.Listado-Dispo li{float:left;background:#179b6a;text-align:center;font-size:18px;color:#fff;padding:12px}
+ul.grayB li{width:95px;float:left;background:gray;text-align:center;font-size:18px;color:#fff;padding:10px}
+ul#Listado-Reser li{width:95px;float:left;background:#dededc;text-align:center;font-size:18px;color:#fff;padding:10px}
+ul#Listado-Reser li a,ul#Listado-Dispo li a{color:#fff;text-decoration:none}
+.fc-event-bg,.fc-event .ui-resizable-handle{display:none!important}
+/*ul.Listado-Dispo,ul#Listado-Reser{width:460px;float:left;margin:10px 0 0 55px}*/

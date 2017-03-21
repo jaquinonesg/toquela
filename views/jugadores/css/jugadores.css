@@ -1,0 +1,38 @@
+.listar_jugadores .img_jugador{
+    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 260px; 
+    background-color: #E5E5E5;
+}
+
+.listar_jugadores .img_jugador img{
+    width: 100%;
+}
+
+.listar_jugadores .nombre{
+    margin-top:10px;
+    font-size:15px;
+}
+
+.listar_jugadores .recuadro{
+    overflow: hidden;
+    position: relative;
+    width: 210px;
+    height: 350px;
+}
+
+.listar_jugadores .recuadro:hover{
+    background-color: #1A2E3E;
+    color: #FFFFFF;
+}
+
+.listar_jugadores .container-jugador{
+    text-align: center;
+    font-size: 13px;
+}
+
+.listar_jugadores .container-jugador a{
+    width: 100%;
+}
+

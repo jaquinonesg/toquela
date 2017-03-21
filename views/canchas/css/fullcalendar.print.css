@@ -1,0 +1,82 @@
+/*!
+ * FullCalendar v1.6.1 Print Stylesheet
+ * Docs & License: http://arshaw.com/fullcalendar/
+ * (c) 2013 Adam Shaw
+ */
+
+/*
+ * Include this stylesheet on your page to get a more printer-friendly calendar.
+ * When including this stylesheet, use the media='print' attribute of the <link> tag.
+ * Make sure to include this stylesheet IN ADDITION to the regular fullcalendar.css.
+ */
+
+
+/* Events
+-----------------------------------------------------*/
+
+.fc-event {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+/* for vertical events */
+
+.fc-event-bg {
+    display: none !important;
+}
+
+.fc-event .ui-resizable-handle {
+    display: none !important;
+}
+
+
+#Listado-Calendario {
+    width:1100px;
+    float:left;	
+}
+
+ul.Listado-Dispo {
+    width:460px;
+    float:left;
+    margin:10px 0 0 55px;
+}
+
+ul.Listado-Dispo li {
+    width:95px;
+    float:left;	
+    background:#179b6a;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:16px;
+    color:#fff;	
+}	
+ul.grayB li {
+    width:95px;
+    float:left;	
+    background:gray;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:16px;
+    color:#fff;	
+}	
+
+ul#Listado-Reser {
+    width:460px;
+    float:left;
+    margin:10px 0 0 55px;
+}
+
+ul#Listado-Reser li {
+    width:95px;
+    float:left;	
+    background:#dededc;
+    padding:10px;
+
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:18px;
+    color:#fff;	
+}	
+ul#Listado-Reser li a, ul#Listado-Dispo li a {	color:#fff;	text-decoration:none; }

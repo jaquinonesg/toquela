@@ -1,0 +1,252 @@
+/*open default: no cambiar*/
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+/*close default: no cambiar*/
+
+/*open esitilos para ver grillas*/
+
+/*.row {
+    margin: 0px;
+    padding: 0px;
+}
+.row .row {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    border: 1px solid red;
+    background-color: rgba(86,61,124,.15);
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}*/
+
+/*close esitilos para ver grillas*/
+
+.clear{
+    clear: both;
+}
+
+.resize_none{
+    resize: none;
+}
+
+/*-----------------------------------*/
+
+.display_none{
+    display: none;
+}
+
+.position_relative{
+    position: relative;
+}
+
+.resaltado_gris{
+    background-color: #E9E9E9;
+    padding: 10px;
+}
+
+.elemento_gris{
+    background-color: #E9E9E9;
+}
+
+.elemento-azul-claro{
+    background-color: #37CDF2;
+}
+
+.img_default{
+    width: 100%;
+    padding: 2px;
+    -webkit-box-shadow: 3px 3px 11px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    3px 3px 11px rgba(50, 50, 50, 0.4);
+    box-shadow:         3px 3px 11px rgba(50, 50, 50, 0.4);
+}
+
+.img_default_border_radius{
+    width: 100%;
+    padding: 2px;
+    -webkit-box-shadow: 3px 3px 11px rgba(50, 50, 50, 0.4);
+    -moz-box-shadow:    3px 3px 11px rgba(50, 50, 50, 0.4);
+    box-shadow:         3px 3px 11px rgba(50, 50, 50, 0.4);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn_img_icon{
+    width: 30px;
+    cursor:pointer;
+}
+
+.cursor{
+    cursor:pointer;
+}
+
+.btn_input_file{
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    background-image:url('../img/btn_input_file/btn_input_file_reposo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: -10px;
+}
+
+.btn_input_file:hover{
+    background-image:url('../img/btn_input_file/btn_input_file_hover.png');
+}
+.btn_input_file:active{
+    background-image:url('../img/btn_input_file/btn_input_file_active.png');
+}
+
+.btn_input_file input {
+    cursor: pointer;
+    display: block !important;
+    width: 120px !important;
+    height: 35px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+}
+
+.btn_input_file label{
+    cursor: pointer;
+    position: absolute;
+    width: inherit;
+    color: #FFF;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.group_input_file{
+    width: 100%;
+}
+
+.group_input_file input{
+    width: 70%;
+    height: 35px;
+    float: left;
+}
+
+.group_input_file div{
+    float: left;
+}
+
+.select-default{
+    padding-left: 10px;
+    background-image: URL(../img/btn_select/icon_flecha_abajo_reposo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.select-default:active{
+    background-image: URL(../img/btn_select/icon_flecha_abajo_down.png);
+}
+
+.loader-small{
+    width: 30px;
+}
+
+.loader-medium{
+    width: 60px;
+}
+
+/*-------validate element-------*/
+.resalta-element{
+    -webkit-box-shadow: 0px 0px 5px rgba(138, 26, 140, 1);
+    -moz-box-shadow:    0px 0px 5px rgba(138, 26, 140, 1);
+    box-shadow:         0px 0px 5px rgba(138, 26, 140, 1);
+}
+/*-------validate element-------*/
+
+
+
+/*---------------------------------------*/
+
+/*estilos aplicables a columnas col-lg*/
+/*@media screen and (min-width: 1200px) {*/
+    /* propiedades CSS a aplicar en ventanas de mas de 1200px*/
+/*}*/
+
+/*estilos aplicables a columnas col-md*/
+/*@media screen and (max-width: 1200px) {*/
+    /* propiedades CSS a aplicar en ventanas de 1200px o menos */
+/*}*/
+
+/*estilos aplicables a columnas col-sm*/
+/*@media screen and (max-width: 992px) {*/
+    /* propiedades CSS a aplicar en ventanas de 992px o menos */
+/*}*/
+
+/*estilos aplicables a columnas col-xs*/
+/*@media screen and (max-width: 768px) {*/
+    /* propiedades CSS a aplicar en ventanas de 768px o menos */
+/*}*/
+
+
+/*
+
+estilos aplicables a columnas col-lg
+@media screen and (min-width: 1200px) {
+    propiedades CSS a aplicar en ventanas de mas de 1200px
+}
+
+estilos aplicables a columnas col-md
+@media screen and (max-width: 1200px) {
+    propiedades CSS a aplicar en ventanas de 1200px o menos
+}
+
+estilos aplicables a columnas col-sm
+@media screen and (max-width: 992px) {
+    propiedades CSS a aplicar en ventanas de 992px o menos
+}
+
+estilos aplicables a columnas col-xs
+@media screen and (max-width: 768px) {
+    propiedades CSS a aplicar en ventanas de 768px o menos
+}
+
+@media screen and (max-width: 1100px){
+
+}
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 800px){
+
+}
+
+@media screen and (max-width: 685px){
+
+}
+
+@media screen and (max-width: 600px){
+
+}
+
+@media screen and (max-width: 480px){
+
+}
+
+@media screen and (max-width: 380px){
+
+}
+
+@media screen and (max-width: 320px){
+
+}*/

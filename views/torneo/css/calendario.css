@@ -1,0 +1,41 @@
+.calendario .pestana{
+    text-align: center;
+    padding: 10px;
+}
+
+.calendario .pestana-select{
+    padding: 10px;
+    width: 80%;
+    margin: 0px auto;
+    border-bottom: solid 8px #003905;
+}
+
+.calendario .item{
+    background-color: #1A2E3E;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+
+.calendario .item .glyphicon{
+    position: absolute;
+    right: 0px;
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+    background-color: #4C5C67;
+}
+
+.calendario .item .glyphicon img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+

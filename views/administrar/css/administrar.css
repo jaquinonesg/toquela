@@ -1,0 +1,62 @@
+.div-title-torneo {
+    background: #E6E6E6;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 12.5%;
+    margin-top: 1%;
+}
+.div-title-torneo .title {
+    font-size: 20px;
+    color: #878787;
+    text-align: center;
+    padding-top: 5px;
+}
+.form-datos{
+margin-left: 12.5%;
+margin-bottom: 60px;
+margin-top: 20px;
+padding-top: 10px;
+}
+.seccion{
+    border-bottom: 2px solid #ddd;
+}
+.seccion:hover{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-bottom: 4px solid #23C3E2;
+    webkit-transition: border .4s ease-in-out;
+    -moz-transition: border .4s ease-in-out;
+    -o-transition: border .4s ease-in-out;
+    -ms-transition: border .4s ease-in-out;
+    transition: border .4s ease-in-out;
+}
+a:hover{
+    text-decoration: none;
+}
+.seccion p{
+    font-size: 18px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+@media(max-width: 1024px){
+    .form-datos{
+        margin-left: 0;
+    }
+    .div-title-torneo {
+        margin-left: 0;
+    }
+    .div-title-torneo {
+        margin-left: 6.5%;
+        width: 86%;
+    }
+}
+@media(max-width: 991px){
+    .div-title-torneo {
+        padding-bottom: 45px;
+    }
+}

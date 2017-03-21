@@ -1,0 +1,1 @@
+<button><a href="{$_params.site}/administrador/banners">Novedades y Publicidad</a></button>

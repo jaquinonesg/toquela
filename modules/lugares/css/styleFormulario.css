@@ -1,0 +1,130 @@
+/**
+ * jQuery.locationPicker Demo Theme
+ *
+ * @author Lupo Montero <lupo@e-noise.com>
+ */
+
+
+.location-picker input {
+  
+	width:348px; 
+	height:18px; 
+	float:left; 
+	color:#FFF; 
+	margin:0 0 5px 0; 
+	border:solid 1px #5f605e; 
+	background-color: #ffffff;
+	color:#424242;
+}
+
+.syntaxhighlighter {
+  padding: 10px;
+}
+
+/* jQuery.suggest styles start here... */
+
+.suggest ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #333;
+  color: #CCC;
+  z-index: 9999;
+  position: absolute;
+  left: -350px;
+  top: 23px;
+}
+
+.suggest ul li {
+  border-bottom: 1px solid #666;
+}
+
+.suggest ul li:hover {
+  color: #333;
+  background-color: #E0F2F7;
+}
+
+.suggest ul li a {
+  position: relative;
+  color: #CCC;
+  display: inline-block;
+  padding: 6px 10px 3px 30px;
+  text-decoration: none;
+  height: 19px;
+}
+
+.suggest ul li:hover a {
+  color: #333;
+}
+
+.suggest ul li a img {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 16px;
+  height: 16px;
+}
+
+.suggest-title {
+  margin: 0 0 6px;
+  padding: 0;
+  /* font-size: 1.2em; */
+  font-weight: normal;
+}
+
+.suggest-subtitle {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.suggest-loading {
+	background-color: #FFFFFF;
+  background-image: url("../img/loading.gif");
+  background-repeat: no-repeat;
+  background-position: right 2px;
+}
+
+.suggest .placeholder {
+	
+	width:348px; 
+	height:18px; 
+	float:left; 
+	color:#424242; 
+	margin:0 0 5px 0; 
+	border:solid 1px #5f605e; 
+	background:#ffffff; 
+	
+		
+  display: inline-block;
+  
+  
+  
+  
+  
+  /*IE ugliness*/
+  zoom: 1;
+  *display: inline;
+}
+
+.suggest .placeholder div {
+  display: inline-block;
+  /*IE ugliness*/
+  zoom: 1;
+  *display: inline;
+}
+
+.suggest .placeholder a {
+  display: inline-block;
+  background: #333;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+  padding: 0 3px;
+  margin: 1px 0 0 8px;
+  /*IE ugliness*/
+  zoom: 1;
+  *display: inline;
+  float: right;
+}

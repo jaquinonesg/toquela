@@ -1,0 +1,76 @@
+
+
+
+---------Thu, 2013/08/29 16:55:27---------
+CÃ³digo de error:	 10061
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0]TCP Provider: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+---------Fin del error---------
+
+
+---------Fri, 2013/08/30 16:44:02---------
+CÃ³digo de error:	 10061
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0]TCP Provider: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+---------Fin del error---------
+
+
+---------Thu, 2013/09/05 16:30:03---------
+CÃ³digo de error:	 2627
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_user_has_team_cod_user'. Cannot insert duplicate key in object 'db_toquela.user_has_team'. The duplicate key value is (1, 6).
+---------Fin del error---------
+
+
+---------Thu, 2013/09/05 16:30:32---------
+CÃ³digo de error:	 2627
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_user_has_team_cod_user'. Cannot insert duplicate key in object 'db_toquela.user_has_team'. The duplicate key value is (1, 6).
+---------Fin del error---------
+
+
+---------Thu, 2013/09/05 16:33:29---------
+CÃ³digo de error:	 2627
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_user_has_team_cod_user'. Cannot insert duplicate key in object 'db_toquela.user_has_team'. The duplicate key value is (1, 6).
+---------Fin del error---------
+
+
+---------Thu, 2013/09/05 17:17:04---------
+CÃ³digo de error:	 2627
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_user_has_team_cod_user'. Cannot insert duplicate key in object 'db_toquela.user_has_team'. The duplicate key value is (1, 6).
+---------Fin del error---------
+
+
+---------Thu, 2013/09/05 17:17:08---------
+CÃ³digo de error:	 2627
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_user_has_team_cod_user'. Cannot insert duplicate key in object 'db_toquela.user_has_team'. The duplicate key value is (1, 6).
+---------Fin del error---------
+
+
+---------Thu, 2013/09/05 17:17:12---------
+CÃ³digo de error:	 2627
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_user_has_team_cod_user'. Cannot insert duplicate key in object 'db_toquela.user_has_team'. The duplicate key value is (1, 6).
+---------Fin del error---------
+
+
+---------Tue, 2013/09/10 10:57:58---------
+CÃ³digo de error:	 10061
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0]TCP Provider: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+
+---------Fin del error---------
+
+
+---------Tue, 2013/09/10 12:55:14---------
+CÃ³digo de error:	 2627
+Mensaje del error:	 [Microsoft][SQL Server Native Client 11.0][SQL Server]Violation of PRIMARY KEY constraint 'PK_user_has_team_cod_user'. Cannot insert duplicate key in object 'db_toquela.user_has_team'. The duplicate key value is (5069, 6).
+---------Fin del error---------
+
+
+---------Mon, 2013/10/07 10:39:32---------
+CÃ³digo de error:	 -49
+Mensaje del error:	 This extension requires the Microsoft SQL Server 2012 Native Client. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+---------Fin del error---------
+
+
+---------Mon, 2013/10/07 10:41:36---------
+CÃ³digo de error:	 -49
+Mensaje del error:	 This extension requires the Microsoft SQL Server 2012 Native Client. Access the following URL to download the Microsoft SQL Server 2012 Native Client ODBC driver for x86: http://go.microsoft.com/fwlink/?LinkId=163712
+---------Fin del error---------

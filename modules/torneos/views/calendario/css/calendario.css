@@ -1,0 +1,131 @@
+.calendario .pestana{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.calendario .pestana-select{
+    padding-bottom: 10px;
+    width: 80%;
+    margin: 0px auto;
+    border-bottom: solid 8px #1A2E3E;
+}
+
+table.round select {
+    display: inline-block;
+    width: 210px;
+    padding: 4px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828282;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.result_match {
+    width: 100px;
+    text-align: center;
+}
+
+#modal-detalle-partido-calendar .name .title{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+#modal-detalle-partido-calendar .img{
+    border: 1px solid #ddd;
+}
+#modal-detalle-partido-calendar .img img{
+    height: 170px;
+    padding: 3px;
+    margin: 0px auto;
+}
+#modal-detalle-partido-calendar .img:hover{
+    border-bottom: 4px solid #16BED5;
+    -webkit-transition: border .2s ease-in-out;
+    -moz-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    -ms-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+#modal-detalle-partido-calendar .versus p{
+    margin-top: 75%;
+    font-size: 60px;
+}
+#modal-detalle-partido-calendar .informacion .title{
+    border-top: 3px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 22px;
+}
+#modal-detalle-partido-calendar .informacion .info-torneo .row{
+    padding-left: 40px;
+}
+#modal-detalle-partido-calendar .sub-title p{
+    text-align: right;
+}
+#modal-detalle-partido-calendar .informacion .info-torneo .glyphicon-arrow-right{
+    margin-left: 6px;
+}
+#modal-detalle-partido-calendar .valor{
+    padding-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+#modal-detalle-partido-calendar .formato_statistic{
+    text-align: left;
+    border: 2px solid #ddd;
+}
+#modal-detalle-partido-calendar .formato_statistic:hover{
+    background: #23C3E2;
+    color: #fff;
+}
+#modal-detalle-partido-calendar .panel-info > .panel-heading {
+    color: #fff;
+    background-color: #23C3E2;
+    border-color: #bce8f1;
+}
+#modal-detalle-partido-calendar .informacion{
+    text-align: center;
+    line-height: 20px;
+    margin-top: 56px;
+}
+#modal-detalle-partido-calendar .formato_statistic{
+    border: 2px solid #ddd;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#modal-detalle-partido .informacion{
+    margin-top: 75px;
+    text-align: center;
+    line-height: 20px;
+}
+#modal-detalle-partido .formato_statistic{
+    border: 2px solid #ddd;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#modal-detalle-partido-calendar .player{
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border: 2px solid #ddd;
+    margin-bottom: 4px;
+}
+#modal-detalle-partido-calendar .player:hover{
+    background-color: #23C3E2;
+    color: #fff;
+}
+@media(max-width: 768px){
+    #modal-detalle-partido .informacion{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 3px solid #ddd;
+        border-top: 3px solid #ddd;
+    }
+}

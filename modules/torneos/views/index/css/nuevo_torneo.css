@@ -1,0 +1,70 @@
+.nuevo_torneo .crear-torneo{
+    font-size: 17px;
+}
+
+.nuevo_torneo .crear-torneo h4{
+    height: 60px;
+}
+
+.nuevo_torneo .crear-torneo .form-group{
+    background-color: #F4F1F2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.nuevo_torneo .crear-torneo .inscripcion .fechas{
+    cursor: pointer;
+    background-color: #F4F1F2;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    border: solid 1px #E3E3E3;
+}
+
+.nuevo_torneo .crear-torneo .inscripcion .fechas p{
+    display: inline-block;
+    width: 75%;
+}
+
+.nuevo_torneo .crear-torneo .inscripcion .fechas .glyphicon{
+    display: inline-block;
+    width: 23%;
+}
+
+.nuevo_torneo .crear-torneo .inscripcion .fechas .glyphicon img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.nuevo_torneo .crear-torneo .invitacion .item{
+    padding-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #003A07;
+    color: #FFFFFF;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.nuevo_torneo .crear-torneo .invitacion .glyphicon{
+    height: 50px;
+}
+
+.nuevo_torneo .crear-torneo .invitacion .glyphicon img{
+    height: 80%;
+}
+
+.nuevo_torneo .crear-torneo .radio label{
+    display: initial;
+    float: none;
+}
+.div-title-torneo .icon-trophy{
+    font-size: 30px;
+}

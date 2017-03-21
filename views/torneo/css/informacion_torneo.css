@@ -1,0 +1,58 @@
+.informacion_torneo .novedades{
+    padding-right: 0px;
+}
+
+.informacion_torneo .novedades div{
+    padding: 0px;
+}
+
+.informacion_torneo .novedades h4{
+    display: inline-block;
+    width: 80%;
+}
+
+.informacion_torneo .novedades .glyphicon{
+    margin-left: 6px;
+}
+
+.informacion_torneo .novedades #icon-novedad{
+    background-color: #1A2E3E;
+    position: absolute;
+    width: 80px;
+    right: 0px;
+}
+
+.informacion_torneo .novedades #icon-foto{
+    background-color: #4B5766;
+}
+
+.informacion_torneo .novedades #icon-foto img{
+    width: 47px;
+    height: 47px;
+}
+
+.informacion_torneo .novedades #icon-video{
+    background-color: #4B5766;
+}
+
+.informacion_torneo .novedades #icon-video img{
+    width: 47px;
+    height: 47px;
+}
+
+.informacion_torneo .novedades #icon-p{
+    background-color: #4B5766;
+    color: #FFFFFF;
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    font-size: 37px;
+}
+
+.informacion_torneo .novedades ul li{
+    width: 62px;
+}
+
+.informacion_torneo .novedades ul .active{
+    border: 1px solid #4B5766;
+}

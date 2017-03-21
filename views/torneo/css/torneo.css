@@ -1,0 +1,121 @@
+.slay{
+    position: relative;
+    background-color: #1A2E3E;
+    background-position: center;
+    height: 400px;
+    padding: 0px;
+}
+
+.slay .carousel-inner{
+    height: 400px;
+}
+.slay .carousel-inner img{
+    margin: auto;
+}
+
+.slay .carousel-indicators{
+    bottom: auto;
+    top: 20px;
+}
+
+.slay .carousel-indicators li{
+    border: solid 1px #2B4556;
+}
+
+.menu{
+    position: absolute;
+    height: 60px;
+    background-color: #FFFFFF;
+    bottom: 20px;
+    text-align: center;
+    border: solid 1px #1A2E3E;
+}
+
+.menu p{
+    line-height:60px;
+}
+
+.menu #p-calendarios-resultados{
+    line-height:30px;
+}
+
+.menu .selected{
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    margin: 0px auto;   
+    margin-top: -12px;
+    border-bottom: solid 1px #1A2E3E;
+    border-right: solid 1px #1A2E3E;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg);
+}
+
+#accordion{
+    padding: 0px;
+}
+
+#accordion .panel-body{
+    padding: 0px;
+}
+
+#accordion .panel-heading{
+    color: #FFFFFF;
+    padding: 4px;
+}
+
+#accordion .table{
+    margin-bottom: 0px;
+}
+
+#accordion .table th{
+    background-color: #4B5B65;
+    color: #FFFFFF;
+    border: solid 2px #FFFFFF;
+}
+
+#accordion .azul{
+    border-color: #1A2E3E;
+}
+
+#accordion .azul .panel-heading{
+    background-color: #1A2E3E;
+    border-color: #1A2E3E;
+}
+
+#accordion .verde{
+    border-color: #003905;
+}
+
+#accordion .verde .panel-heading{
+    background-color: #003905;
+    border-color: #003905;
+}
+
+._info_team th{
+    text-align: center;
+    background-color: #1A2E3E;
+    color: #FFFFFF;
+}
+
+._info_team .glyphicon{
+    background-color: #1A2E3E;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.mis_torneos .torneos h4{
+    display: inline-block;
+    width: 80%;
+}
+
+.mis_torneos .tabla-acciones{
+    width: 150px;
+}
+
+.mis_torneos .tabla-acciones button{
+    margin: 5px;
+}
+

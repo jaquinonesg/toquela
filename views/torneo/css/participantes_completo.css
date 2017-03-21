@@ -1,0 +1,53 @@
+.participantes{
+    padding: 0px;
+}
+
+.participantes .pestana{
+    text-align: center;
+    padding: 0px;
+}
+
+.participantes #jugadores-inscritos{
+    padding-right: 8px;
+}
+
+.participantes .pestana #icon-jugador{
+    margin-right: 8px;
+}
+
+.participantes #equipos-inscritos{
+    padding-left: 8px;
+}
+
+.participantes .pestana .glyphicon{
+    background-color: #1A2E3E;
+    position: absolute;
+    right: 0px;
+}
+
+.participantes .pestana .btn{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.participantes .pestana .number{
+    font-size: 70px;
+}
+
+.participantes .select-default{
+    position: relative;
+    margin-top: 10px;
+    width: 80%;
+    height: 60px;
+}
+
+.participantes .jugadores{
+    text-align: center;
+}
+
+

@@ -1,0 +1,139 @@
+.participantes{
+    padding: 0px;
+}
+.participantes #asignar_equipos .form-control {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.participantes #asignar_equipos .form-group {
+    background-color: #F4F1F2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid 1px #E3E3E3;
+    margin-right: 0px;
+}
+.participantes .pestana{
+    text-align: center;
+    padding: 0px;
+}
+.participantes #asignar_equipos{
+    padding-right: 8px;
+}
+.participantes .pestana #icon-jornada{
+    margin-right: 8px;
+}
+.participantes #equipos-inscritos{
+    padding-left: 8px;
+}
+/*.participantes .pestana .glyphicon{
+background-color: #1A2E3E;
+position: absolute;
+right: 0px;
+}*/
+.participantes .pestana .btn_blue_light{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.participantes .pestana .number{
+    font-size: 70px;
+}
+.participantes .select-default{
+    position: relative;
+    margin-top: 10px;
+    width: 80%;
+    height: 60px;
+}
+.participantes .jugadores{
+    text-align: center;
+}
+.div-acordion-grupos {
+    margin-top: 2%;
+}
+.modal-asign-equipos .team-check{
+    text-align: initial;
+    padding: 2px;
+    border: 2px solid #DDD;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.modal-asign-equipos .team-check:hover{
+    border: 2px solid #BBB;
+}
+.modal-asign-equipos .team-check img{
+    padding: 3px;
+    border: 1px solid #DDD;
+}
+#equipos_escogidos .panel-info > .panel-heading {
+    color: #3a87ad;
+    background-color: #39b3d7;
+    border-color: #bce8f1;
+}
+#equipos_escogidos .panel-title{
+    color: #fff;
+}
+#equipos_escogidos .panel-title a{
+ text-decoration: none;
+}
+#equipos_escogidos .panel-title a:hover{
+ color: #E4E4E4;
+}
+#equipos_escogidos .eliminar-escogido{
+   position: absolute;
+   right: 0;
+   margin-right: 23px;
+   cursor: pointer;
+}
+#equipos_escogidos .eliminar-escogido:hover{
+   color: #D86767;
+}
+#equipos_escogidos .team-escogido >div{
+    border: 2px solid #DDD;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 4px;
+}
+#equipos_escogidos .team-escogido img{
+    padding: 3px;
+    border: 1px solid #DDD;
+}
+#equipos_escogidos .panel-info{
+border: 2px solid #bce8f1;
+}
+/*en popup de agregar equipos*/
+.btns-arregla-vidas{
+    margin-top: 10px;
+}
+.btns-arregla-vidas .btn_info{
+    background: #fff;
+    border: 2px solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    color: #BBB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.btns-arregla-vidas .btn_info:hover{
+    background-color: #BBB;
+    border-color: #BBB;
+    color: #fff;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+/*css para el input checbox bonito de los equipos*/
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+* { margin: 0; padding: 0; border: 0 none;}
+section {margin: 20px;}
+h3 {display: inline-block; vertical-align: middle; font-family: 'Aldrich', sans-serif; color: #BCB589; font-size: 25px;}
+input[type=checkbox] {
+    visibility: hidden;
+}

@@ -1,0 +1,138 @@
+.carnet .items_carnet .item{
+    width: 100%;
+    text-align: left;
+}
+
+.carnet #herramientas{
+    text-align: center;
+}
+
+.carnet .contend_carnet{
+    padding: 0.1322916666667cm;
+}
+
+.carnet .item{
+    border: 1px solid red;
+    background-color: #FFFFFF;
+    color: #000000;
+    display: inline-block;
+    -webkit-border-radius: 0.1322916666667cm;
+    -moz-border-radius: 0.1322916666667cm;
+    border-radius: 0.1322916666667cm;
+    padding: 0.1322916666667cm;
+    cursor: move;
+}
+
+.carnet #separator{
+    border-width: 2px;
+    border-style: dashed; 
+    border-color: #000000;
+    text-align: center;
+}
+
+.carnet .borde_redondeado{
+    border: 1px solid red;
+    -webkit-border-radius: 0.1322916666667cm;
+    -moz-border-radius: 0.1322916666667cm;
+    border-radius: 0.1322916666667cm;
+    padding: 0.1322916666667cm;
+}
+
+.carnet .add_separator{
+    border-bottom: 1px solid #000000;
+}
+
+.carnet .actions{
+    float: right;
+}
+
+.carnet .item_in{
+    /*border: 1px solid #006dcc;*/
+    position: relative;
+    /*background-color: #F0F0F0;*/
+}
+
+.carnet .item_static{
+    border: 1px solid #000000;
+}
+
+.carnet .text_size{
+    color: #ADADAD;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+}
+
+.carnet .text_size_item_in{
+    color: #ADADAD;
+    text-align: center;
+    position: absolute;
+    left: 48%;
+    top: 25%;
+}
+
+.carnet .item_in_rotate{
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.carnet .item_in_rotate_ri{
+    text-align: center;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.carnet .item_in_hover{
+    border-width: 1px;
+    border-style: dashed; 
+    border-color: #006dcc;
+}
+
+.carnet .cara{
+    margin: 0px auto;
+    position: relative;
+}
+
+.carnet .foto{
+    border: 1px solid #000000;
+    text-align: center;
+    color: #CCC;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.carnet .contenido{
+    /*border: 1px solid #000000;*/
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.carnet .logo{
+    float: right;
+}
+
+.carnet .pie{
+    /*border: 1px solid #000000;*/
+}
+
+.carnet .space{
+    height: 5px;
+}
+
+.carnet .franjalateral{
+    /*border: 1px solid #000000;*/
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.carnet .plantilla_carnet{
+    text-align: left;
+}

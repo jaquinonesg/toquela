@@ -1,0 +1,164 @@
+/*.btn{
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: #FFA500;
+    border: 0px;
+    color: #FFF;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: gray;   
+    color: whitesmoke;
+    cursor: pointer;
+}*/
+
+a:hover{
+    cursor: pointer;
+}
+
+.verde-agregar{
+    background: #154B08;
+}
+.verde-agregar:hover{
+    background: #777777;
+}
+
+.perfil-partido .btn-modal-postulate{
+    color: #ffffff;
+    background-color: #428bca;
+    border-color: #357ebd;
+    margin-top: 3%;
+    margin-left: 2%;
+
+}
+.btn-modal-postulate:hover{
+    color: #ffffff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+.modal-header {
+    color: #fff;
+    background-color: #3276b1;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 0px;
+}
+.modal-footer {
+    padding: 9px 20px 20px;
+    margin-top: 0px;
+}
+.postulated {
+    margin-top: 4%;
+    margin-left: 2%;
+}
+.postulated span{
+    margin-right: 2%;
+    color: rgb(0, 184, 255);
+    font-size: 24px;
+}
+.modals-detalle-partido .modal-postular-mis-equipos .modal-dialog{
+    width: 65%;
+}
+.modals-detalle-partido .modal-postular-mis-equipos .modal-header{
+    background-color: #303D48
+}
+.modals-detalle-partido .modal-postular-mis-equipos .modal-footer{
+    border: 0px;
+}
+.modals-detalle-partido .btn-close-modal{
+    margin-bottom: 0;
+}
+
+.modals-detalle-partido .section-team{
+    padding-left: 13%;
+}
+
+/*informacion partido link de notificación*/
+.resalta{color:#23C3E2}
+.detalle-partido-notificacion {
+    margin: 0px 0px 50px;
+}
+.detalle-partido-notificacion  .name .title{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.detalle-partido-notificacion  .img{
+    border: 1px solid #ddd;
+}
+.detalle-partido-notificacion  .img img{
+    height: 170px;
+    padding: 3px;
+    margin: 0px auto;
+}
+.detalle-partido-notificacion  .img:hover{
+    border-bottom: 4px solid #16BED5;
+    -webkit-transition: border .2s ease-in-out;
+    -moz-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    -ms-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.detalle-partido-notificacion  .versus p{
+    margin-top: 75%;
+    font-size: 60px;
+}
+.detalle-partido-notificacion  .informacion .title{
+    border-top: 3px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 22px;
+}
+.detalle-partido-notificacion  .informacion .info-torneo .row{
+    padding-left: 40px;
+}
+.detalle-partido-notificacion  .sub-title p{
+    text-align: right;
+}
+.detalle-partido-notificacion  .informacion .info-torneo .glyphicon-arrow-right{
+    margin-left: 6px;
+}
+.detalle-partido-notificacion  .valor{
+    padding-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+.detalle-partido-notificacion  .formato_statistic{
+    text-align: left;
+    border: 2px solid #ddd;
+}
+.detalle-partido-notificacion  .formato_statistic:hover{
+    background: #23C3E2;
+    color: #fff;
+}
+.detalle-partido-notificacion  .panel-info > .panel-heading {
+    color: #fff;
+    background-color: #23C3E2;
+    border-color: #bce8f1;
+}
+.detalle-partido-notificacion .info-torneo{
+    margin-top: 90px;
+}
+.detalle-partido-notificacion .info-torneo p{
+   text-align: center
+}
+.detalle-partido-notificacion .div-title-torneo {
+    background: #E6E6E6;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    margin: 10px 0px;
+    padding: 4px 18px;
+}
+.detalle-partido-notificacion .div-title-torneo .title {
+    font-size: 20px;
+    color: #878787;
+    text-align: center;
+    padding-top: 8px;
+}
+@media(max-width: 1024px){
+    .modals-detalle-partido .modal-postular-mis-equipos .modal-dialog{
+        width: 90%;
+    }
+}

@@ -1,0 +1,729 @@
+/*.init .row{
+    background-color: #F2F2F2;
+    }*/
+
+    .slay{
+        position: relative;
+        background-color: #FFFFFF;
+        background-position: center;
+    }
+    .resalta{color:#23C3E2}
+/*.slay .carousel-inner{
+    height: 400px;
+    }*/
+    .slay .carousel-inner img{
+        margin: auto;
+        height: 300px;
+    }
+
+    .slay .carousel-indicators{
+        bottom: auto;
+        top: 20px;
+    }
+
+    .slay .carousel-indicators li{
+        border: solid 1px #2B4556;
+    }
+
+    .menu .navbar-inverse .navbar-brand {
+        color: #4B5B65;
+        font-weight: bold;
+    }
+
+
+    .menu .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
+        color: #4B5B65;
+        font-weight: bold;
+    }
+
+    .menu p{
+        line-height:60px;
+    }
+
+    .menu #p-calendarios-resultados{
+        line-height:30px;
+    }
+
+    .menu .selected{
+        background-color: #FFFFFF;
+        width: 20px;
+        height: 20px;
+        margin: 0px auto;   
+        margin-top: -12px;
+        border-bottom: solid 1px #1A2E3E;
+        border-right: solid 1px #1A2E3E;
+        transform:rotate(45deg);
+        -ms-transform:rotate(45deg); /* IE 9 */
+        -webkit-transform:rotate(45deg);
+    }
+
+    .acor{
+        padding: 0px;
+        color:#1A2E3E;
+        font-size: 13px;
+    }
+
+    .acor .actions{
+        float: right;
+    }
+
+    .acor .jugador{
+        width: 100%;
+        position: relative;
+        border: 1px solid #E7E7E7;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        padding-left: 3px;
+    }
+
+    .acor .jugador:hover{
+        background-color: #CCCCCC;
+    }
+
+    .acor .panel-body{
+        padding: 0px;
+    }
+
+    .acor .table{
+        margin-bottom: 0px;
+    }
+
+    .acor .table th{
+        background-color: #47AFC7;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .acor .azul{
+        border-color: #E5E5E5;
+    }
+
+    .acor .azul .panel-heading{
+        background-color: #E5E5E5;
+        color: #000000;
+        padding: 5px;
+    }
+
+    .acor .panel-heading .btns-actions{
+        width: 100%;
+        padding-bottom: 7px;
+    }
+
+    .acor .panel-heading .accordion-toggle{
+        color: #000000;
+        font-size: 16px;
+        text-decoration: none;
+        padding-right: 60%;
+    }
+    .acor .verde{
+        border-color: #E5E5E5;
+    }
+
+    .acor tbody tr{
+        cursor: pointer;
+    }
+
+    .acor .verde .panel-heading{
+        background-color: #E5E5E5;
+        color: #000;
+        padding: 5px;
+    }
+    .icon-default-right{
+        background-color: #40505D;
+        width: 80px;
+        position: absolute;
+        right: 0px;
+        top: 0;
+    }
+
+    #icon-camiseta{
+        background-color: #1A2E3E;
+        width: 80px;
+        position: absolute;
+        margin-right: 50px;
+    }
+
+    .icon-azul{
+        background-color: #1A2E3E;
+        width: 80px;
+        height: 80px;
+    }
+
+    ._info_team th{
+        text-align: center;
+        background-color: #1A2E3E;
+        color: #FFFFFF;
+    }
+
+    ._info_team .glyphicon{
+        background-color: #1A2E3E;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+
+    .mis_torneos  h4{
+        display: inline-block;
+        width: 80%;
+    }
+
+    .mis_torneos .tabla-acciones{
+        width: 160px;
+    }
+
+    .mis_torneos .tabla-acciones button{
+        margin: 2px;
+    }
+
+    .btn-modi-info{
+        /*width: 100%;*/
+    }
+
+    .capsula{
+        margin: 10px;
+        padding: 5px;
+        border: solid 1px #CCCCCC;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+    }
+
+
+
+    .menu-estadistica .nav li{
+        background-color: #37CDF2;
+        border: none;
+    }
+
+    .menu-estadistica .nav li a{
+        text-decoration: none;
+        color: #FFFFFF;
+        border: none;
+        margin-right: 0px;
+        border-radius: initial;
+    }
+
+    .menu-estadistica .nav .active{
+        background-color: #1A2E3E;
+    }
+
+    .menu-estadistica .nav .active a{
+        background-color: #1A2E3E;
+    }
+
+    .menu-estadistica .nav > li > a:hover, .nav > li > a:focus {
+        background-color: #40505D;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    .contador-partido{
+        position: absolute;
+        display: inline-block;
+        border: 2px solid #37CDF2;
+        background-color: #FFFFFF;
+        color: #1A2E3E;
+        left: 0;
+        padding: 5px;
+        margin-right: 5px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .input-resultado{
+        display: inline-block;
+        width: 30px;
+        padding: 4px;
+        text-align: center;
+        margin-top: 2px;
+    }
+
+    .no-programado{
+        color: #A3A3A3;
+    }
+    .no-programado .contador-partido {
+        color: #A3A3A3;
+        border: 2px solid #A3A3A3;
+    }
+    .no-programado td{
+        color: #A3A3A3;
+    }
+    .no-programado p{
+        color: #A3A3A3;
+    }
+    .no-programado span{
+        color: #A3A3A3;
+    }
+
+    #modal-detalla-partido .modal-header{
+        background-color: #47AFC7;
+        color: #1A2E3E;
+    }
+
+    #modal-detalla-partido .modal-body p{
+        margin-bottom: 4px;
+    }
+
+    #modal-detalla-partido .capa-img{
+        overflow: hidden;
+        position: relative;
+        width: 70px;
+        height: 52px;
+        background-color: #E5E5E5;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        display: inline-block;
+    }
+
+    /*roma*/
+    .div-fase-resultados{
+        border: 3px solid #DBDBDB;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+        margin-bottom: 4%;
+        margin-top: 2%;
+        -moz-border-radius: 28px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .btn_mas_resultados{
+       background: #fff;
+       border: 2px solid;
+       border-radius: 10px;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       color: #23C3E2;
+   }
+   .btn_tabla_reclasificacion{
+       background: #fff;
+       border: 2px solid;
+       border-radius: 10px;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       color: #23C3E2;
+   }
+   .btn_result_parcial_calendar{
+     background: #fff;
+     border: 2px solid;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     color: #23C3E2;
+ }
+ .btn-modi-info{
+     background: #fff;
+     border: 2px solid;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     color: #23C3E2;
+ }
+ .btn_total_grupos{
+   background: #fff;
+   border: 2px solid;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   color: #23C3E2;
+}
+.ir-torneo{
+   background: #fff;
+   border: 2px solid;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   color: #23C3E2;
+}
+.btn-crear-torneo{
+ background: #fff;
+ border: 2px solid;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ color: #23C3E2;
+}
+.gen_siguiente_ronda{
+ background: #fff;
+ border: 2px solid;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ color: #23C3E2;
+}
+.btn_result_proxima_fecha{
+ background: #fff;
+ border: 2px solid;
+ border-radius: 10px;
+ -webkit-border-radius: 10px;
+ -moz-border-radius: 10px;
+ color: #23C3E2;
+}
+.efect-hover{
+   background: #fff;
+   border: 2px solid;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   color: #23C3E2;
+}
+.gen_siguiente_ronda:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.btn-crear-torneo:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.btn_result_parcial_calendar:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.btn-modi-info:hover{
+   background-color: #16BED5;
+   border-color: #23C3E2;
+   -webkit-transition: background-color .4s ease-in-out;
+   -moz-transition: background-color .4s ease-in-out;
+   -o-transition: background-color .4s ease-in-out;
+   -ms-transition: background-color .4s ease-in-out;
+   transition: background-color .4s ease-in-out;
+}
+.btn_total_grupos:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.btn_mas_resultados:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out
+}
+.btn_mas_resultados:focus{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out
+}
+.ir-torneo:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.efect-hover:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    color: #fff;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+
+/*accor*/
+.acor .verde .panel-heading:hover{
+    background-color: rgba(208, 210, 211, 1);
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.acor .azul .panel-heading:hover{
+    background-color: rgba(208, 210, 211, 1);
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.btn_result_proxima_fecha:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.filter-padding{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    border-top: 3px solid #DBDBDB;
+}
+/* acordion torneos*/
+.torneos{
+    margin-top: 16px;
+}
+.div-title-torneo{
+    background: #E6E6E6;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 12.5%;
+}
+.acor-toneos{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 6%;
+}
+.div-title-torneo .title{
+    font-size: 20px;
+    color: #878787;
+    text-align: center; 
+    padding-top: 5px;
+}
+.toneos a{
+    text-decoration: none;
+}
+.toneos a:hover{
+    text-decoration: none;
+}
+.acor-toneos .title-dos {
+    font-size: 17px;
+    margin-left: 5px;
+    color: #878787;
+}
+.acor-toneos th{
+ color: #fff;
+ font-size: 16px;
+}
+.acor-toneos .table th {
+    color: #fff;
+}
+.div-acordion-grupos{
+    margin-left: 12.5%;
+}
+.icon-camiseta{
+    font-size: 34px;
+}
+.div-btn-back-torneos{
+    padding-bottom: 8px;
+    margin-left: 11.5%;
+}
+.div-btn-back-torneos a .glyphicon{
+    font-size: 22px;
+    text-decoration: none;
+}
+.div-btn-back-torneos a .back{
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+.div-btn-back-torneos a:hover{
+    text-decoration: none;
+    color: rgba(208, 210, 211, 1);
+    -webkit-transition: color .4s ease-in-out;
+    -moz-transition: color .4s ease-in-out;
+    -o-transition: color .4s ease-in-out;
+    -ms-transition: color .4s ease-in-out;
+    transition: color .4s ease-in-out;
+}
+.navbar-inverse-perso .navbar-toggle{
+    background: rgb(180, 180, 180);
+}
+
+/*aaaaaaaahhh*/
+.proximas-fechas{
+    margin-bottom: 20px;
+}
+.proximas-fechas .glyphicon-arrow-right{
+    margin-left: 5px;
+}
+.proximas-fechas .fecha{
+    background: #1A2E3E;
+    color: #fff;
+    padding: 6px;
+    font-size: 14px;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    -moz-border-radius: 7px 7px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
+}
+.proximas-fechas .titles{
+    padding: 0px;
+}
+.proximas-fechas .titles > div{
+    background: #1A2E3E;
+    color: #fff;
+    padding-bottom: 6px;
+}
+.proximas-fechas .row.valor:nth-child(1){
+    border: 2px solid #ddd;
+    border-top: 0px;
+    margin-top: 29px;
+}
+.proximas-fechas .row.valor{
+    border: 2px solid #ddd;
+    border-top: 0px;
+    padding-top: 2px; 
+}
+.proximas-fechas .row.valor > div{
+    height: 40px;
+}
+.proximas-fechas .row.valor p{
+    margin-top: 10px;
+}
+.all-match:hover{
+    border-bottom:3px solid #16BED5;
+    -webkit-transition: border .2s ease-in-out;
+    -moz-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    -ms-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+.all-match.no-programado:hover{
+    border-bottom:3px solid #A3A3A3;
+    -webkit-transition: border .2s ease-in-out;
+    -moz-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    -ms-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+#modal-detalle-partido .name .title{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+#modal-detalle-partido .img{
+    border: 1px solid #ddd;
+}
+#modal-detalle-partido .img img{
+    height: 170px;
+    padding: 3px;
+    margin: 0px auto;
+}
+#modal-detalle-partido .img:hover{
+    border-bottom: 4px solid #16BED5;
+    -webkit-transition: border .2s ease-in-out;
+    -moz-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    -ms-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+#modal-detalle-partido .versus p{
+    margin-top: 75%;
+    font-size: 60px;
+}
+#modal-detalle-partido .informacion .title{
+    border-top: 3px solid #ddd;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 22px;
+}
+#modal-detalle-partido .informacion .info-torneo .row{
+    padding-left: 40px;
+}
+#modal-detalle-partido .sub-title p{
+    text-align: right;
+}
+#modal-detalle-partido .informacion .info-torneo .glyphicon-arrow-right{
+    margin-left: 6px;
+}
+#modal-detalle-partido .valor{
+    padding-left: 0px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+#modal-detalle-partido .formato_statistic{
+    text-align: left;
+    border: 2px solid #ddd;
+}
+#modal-detalle-partido .formato_statistic:hover{
+    background: #23C3E2;
+    color: #fff;
+}
+#modal-detalle-partido .panel-info > .panel-heading {
+    color: #fff;
+    background-color: #23C3E2;
+    border-color: #bce8f1;
+}
+.panel.title a, a:hover, a:focus {
+    text-decoration: none;
+    color: #ddd;
+}
+.configurar .alert-danger{
+    width: 60%;
+margin-left: 20%;
+}
+@media(max-width: 1024px){
+    .div-acordion-grupos{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .div-title-torneo{
+        margin-left: 0px;
+    }
+    .btn-crear-torneo {
+        margin-left: 12px;
+    }
+    .div-btn-back-torneos {
+        margin-left: 1.5%;
+        margin-bottom: 2%;
+    }
+    .div-title-torneo {
+        margin-left: 6.5%;
+        width: 86%;
+    }
+}
+@media(max-width: 991px){
+    .div-title-torneo {
+        padding-bottom: 45px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slay .carousel-inner img{
+        margin: auto;
+        height: 140px;
+    }   
+    .div-fase-resultados{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .div-title-torneo .title {
+        font-size: 19px;
+        padding-top: 10px;
+    }
+    #modal-detalle-partido .versus p {
+        margin-top: 2%;
+        font-size: 90px;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        margin-bottom: 2%;
+    }
+}

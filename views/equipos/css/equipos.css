@@ -1,0 +1,24 @@
+/*.btn{
+    padding: 5px 20px;
+    font-weight: bold;
+    background-color: #FFA500;
+    border: 0px;
+    color: #FFF;
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: gray;   
+    color: whitesmoke;
+    cursor: pointer;
+    }*/
+
+    a:hover{
+        cursor: pointer;
+    }
+
+    .verde-agregar{
+        background: #154B08;
+    }
+    .verde-agregar:hover{
+        background: #777777;
+    }

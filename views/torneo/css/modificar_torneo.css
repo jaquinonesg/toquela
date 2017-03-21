@@ -1,0 +1,75 @@
+.modificar_torneo .update-torneo{
+    font-size: 17px;
+}
+.modificar_torneo .update-torneo .form-group{
+    background-color: #F4F1F2;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid 1px #E3E3E3;
+}
+
+.modificar_torneo .update-torneo .inscripcion .fechas{
+    cursor: pointer;
+    background-color: #F4F1F2;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+    border: solid 1px #E3E3E3;
+}
+
+.modificar_torneo .update-torneo .inscripcion .fechas p{
+    display: inline-block;
+    width: 75%;
+}
+
+.modificar_torneo .update-torneo .inscripcion .fechas .glyphicon{
+    display: inline-block;
+    width: 23%;
+}
+
+.modificar_torneo .update-torneo .inscripcion .fechas .glyphicon img{
+    width: 60px;
+    height: 60px;
+}
+
+
+.modificar_torneo .update-torneo .invitacion .item{
+    padding-top: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #003A07;
+    color: #FFFFFF;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.modificar_torneo .update-torneo .glyphicon{
+    width: 50px;
+    height: 50px;
+}
+
+.modificar_torneo .update-torneo .glyphicon img{
+    width: 100%;
+}
+
+.modificar_torneo .update-torneo .invitacion .glyphicon img{
+    width: auto;
+    right: 5px;
+    height: 80%;
+    position: relative;
+}
+
+.modificar_torneo .update-torneo #btn_update{
+    width: 100%;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    border: 1px solid #1A2E3E;
+    background: #1A2E3E;
+}

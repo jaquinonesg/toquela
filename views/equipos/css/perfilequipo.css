@@ -1,0 +1,473 @@
+.dl{
+    display: none;
+}
+.resalta{
+    color: #13CCD3;
+}
+#menu_perfil ul{
+    text-align: right;
+    width:1100px;
+    height:60px;
+    background:url(../../../public/img/Back-Menu-Perfil.png);
+}
+
+#menu_perfil li{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight: bold;
+    color:#006C44;
+    cursor: pointer;
+}
+
+#menu_perfil li:hover {
+    color:#000;
+}
+
+.caja_negra{
+    width: 350px;
+    float: right;
+    border: 2px dashed black;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: gray 0 0 20px;
+    background-color: black;
+    color: #FFF;
+}
+
+.caja_negra .items_left{
+    width: 48%;
+    display: inline-block;
+}
+
+.caja_negra .items_right{
+    width: 48%;
+    display: inline-block;
+}
+
+.caja_negra .items_right .value{
+    color: #FDCC00;
+    text-align: center;
+    font-size: 90px;
+}
+
+.caja_negra .items_right .link{
+    color: #FDCC00;
+    text-align: center;
+}
+
+.caja_negra img{
+    width: 20px;
+    height: 15px;
+}
+
+.info_head{
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+.info_head .img_perfil{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+.info_head .info_center{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.info_head .caja_negra{
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content_porcent #porcent_perfil{
+    width: 60%;
+    background-color: #05673A;
+}
+
+.content_porcent #porcent_inter{
+    background-color: #0A894D;
+}
+
+.dropdown-menu{
+    display: initial;
+    position: relative;
+}
+
+.galeria_peque{
+    margin-top: 30px;
+}
+
+.galeria_peque .img_galeria_peque{
+    width: 200px;
+    height: 135px;
+    margin: 5px;
+    display: inline-block;
+    border: solid 1px #0A894D;
+}
+
+#popup_postula{
+    margin: 20px;
+    text-align: center;
+}
+
+#popup_postula p{
+    font-weight: bold;
+}
+.info-match .form-info-match{
+    margin-left: 5%;
+}
+.info-match .a-btn-back{
+    cursor: pointer;
+    padding: 0px;
+    margin-left: -2%;
+    font-size: 25px;
+    color: #1A2E3E;
+    opacity: 0.6;
+}
+
+.info-match .a-btn-back:hover {
+    opacity: 1;
+}
+
+.select-complex{
+    padding-left: 1px;
+}
+.info-match .div_create_complex{
+    padding-left: 1px;
+    font-size: 20px;
+}
+.info-match .row-create-complex{
+
+}
+.div_create_complex a{
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: none;
+}
+.div_create_complex a:hover{
+    opacity: 1;
+}
+.btn_crear_partido{
+    margin-top: 2%;
+}
+.h-style{
+    margin-bottom: 1%;
+    margin-top: 3%;
+    font-size: 21px;
+}
+.span-radio{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+}
+#select-match-tempo .btn-match-type{
+    margin-left: 5%;
+    font-size: 16px;
+}
+
+#div-select-type-complex .btn-complex-type{
+    margin-left: 5%;
+    font-size: 18px;
+}
+.btn-teams-selected button{
+    width: 60%;
+    background-color: #428bca;
+    border-color: #357ebd;
+    font-size: 19px;
+    margin-left: 20%;
+}
+.btn-teams-selected button:hover{
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+.glyphicon-delete-teams{
+    color: rgb(31, 175, 211);
+    margin-left: 24%;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.glyphicon-delete-teams:hover{
+    color: gray;
+}
+.teams-selected{
+    margin-top: 3%;
+    width: 98%;
+    border-bottom: 4px solid;
+    border-top: 4px solid;
+    margin-left: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 1%
+}
+.teams-selected h4{
+    font-size: 21px;
+    margin-bottom: 3%;
+    color: rgb(31, 175, 211);
+}
+.close-teams{
+    cursor:pointer;
+}
+.close-teams:hover{
+    color: gray;
+}
+.btn-teams-selected{
+    margin-top: 2%;
+
+}
+#title_for_type{
+    color: rgb(31, 175, 211); 
+}
+
+.menu-estadistica .nav li{
+    background-color: #37CDF2;
+    border: none;
+}
+.menu-estadistica .nav li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 0px;
+    border-radius: initial;
+}
+
+.menu-estadistica .nav .active{
+    background-color: #1A2E3E;
+}
+
+.menu-estadistica .nav .active a{
+    background-color: #1A2E3E;
+}
+
+.menu-estadistica .nav > li > a:hover, .nav > li > a:focus {
+    background-color: #40505D;
+    color: #FFFFFF;
+    border: none;
+}
+.modal-postulateds .delete-postulated{
+    color: rgb(31, 175, 211);
+    margin-left: 4%;
+    font-size: 17px;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.modal-postulateds .delete-postulated:hover{
+    color: gray;
+}
+
+.modal-postulateds .acept-postulated{
+    color: rgb(80, 184, 55);
+    margin-left: 4%;
+    font-size: 17px;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.modal-postulateds .acept-postulated:hover{
+    color: gray;
+}
+.modal-postulateds .span-postulated{
+    color: rgb(80, 184, 55);
+    margin-left: 4%;
+    font-size: 17px;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.modal-postulateds .p-postulated{
+    margin-top: 2%;
+}
+.modal-postulateds .t-options{
+    margin-left: 1%;
+    color: rgb(131, 132, 133);
+}
+
+
+.modal-postulateds .modal-header {
+    color: #fff;
+    background-color: #3276b1;
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 0px;
+}
+
+.teams-selected .btn-add-postulate{
+    margin-left: 24%;
+    margin-top: 2%;
+}
+.perfil-partido .btn-modal-postulate{
+    margin-top: 2%;
+}
+.perfil-partido .versus{
+    margin-top: 72%;
+    font-size: 95px;
+}
+.perfil-partido .attrs-team{
+    margin-bottom: 16%;
+    margin-top: 3%;    
+}
+.perfil-partido .info-match{
+    margin-bottom: 2%;
+    margin-top: 7%;
+    font-size: 18px;
+}
+
+.mis_partidos .not-match{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+#select-complex .ifram-complex{
+    border-top: 4px solid;
+    margin-top: 18%;
+    border-bottom: 4px solid;
+}
+#select-complex .ifr-back{
+    position: absolute;
+    top: 5%;
+    font-size: 26px;
+}
+#div-select-type-complex .nav-tabs {
+    border-bottom: 0px;
+}
+#div-select-type-complex .menu-estadistica .nav > li > a:hover, .nav > li > a:focus {
+    background-color: rgb(31, 175, 211);
+}
+.modal.in .modal-dialog-big {
+    width: 82%;
+}
+
+/*--crear partido--*/
+#reserve-info .subtitle-reserve{
+}
+#reserve-info .value-reserve{
+}
+#reserve-info .first-row{
+    margin-bottom: 6%;
+}
+/*---close crear partido---*/
+/*nuevos roma*/
+.efect-hover{
+    background: #fff;
+    border: 2px solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    color: #23C3E2;
+}
+.efect-hover:hover{
+    background-color: #16BED5;
+    border-color: #23C3E2;
+    color: #fff;
+    -webkit-transition: background-color .4s ease-in-out;
+    -moz-transition: background-color .4s ease-in-out;
+    -o-transition: background-color .4s ease-in-out;
+    -ms-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
+}
+.mensaje-jugadores-excel .tipo{
+    border: 2px solid #ddd;
+    padding: 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 20px;
+}
+.mensaje-jugadores-excel .tipo .title{
+    background: #06ABB2;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    padding: 4px;
+    font-size: 20px;
+}
+.mensaje-jugadores-excel .tipo .desc{
+    margin-left: 4px;
+    font-size: 16px;
+    padding: 8px;
+}
+.mensaje-jugadores-excel .tipo .desc .glyphicon{
+    color: #13CCD3;
+    font-size: 18px;
+}
+.mensaje-jugadores-excel .tipo .content .glyphicon{
+    color: #13CCD3;
+    font-size: 14px;
+}
+.mensaje-jugadores-excel .tipo .content{
+    padding: 2px 0px 8px 32px;
+}
+
+.mensaje-jugadores-excel .tipo .content p{
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+.inscribir-jugadores .desc{
+   font-size: 16px;
+   padding: 8px; 
+}
+.inscribir-jugadores .desc .glyphicon{
+ color: #13CCD3;
+ font-size: 18px; 
+}
+.inscribir-jugadores .content p{
+    font-size: 16px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+}
+.div-title-bg{
+    background: #E6E6E6;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.div-title{
+    font-size: 26px;
+    color: #878787;
+    text-align: center;
+    padding-top: 5px;
+}
+.divcortar:hover{
+    border-bottom: 4px solid #16BED5;
+    -webkit-transition: border .2s ease-in-out;
+    -moz-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    -ms-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+/*close nuevo roma*/
+@media (max-width: 768px) {
+    .perfil-partido .versus{
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+}
+
+/*crear*/
+@media only screen and (max-width:768px){
+    .select-complex {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px; height: 0; overflow: hidden;
+    }
+
+    .select-complex iframe,
+    .select-complex object,
+    .select-complex embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
